@@ -1,0 +1,33 @@
+{
+  "name": "11ty-reading-time",
+  "description": "Adding a reading-time filter to Eleventy",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-reading-time/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "reading-time": "^1.2.0"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-reading-time#readme",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "filter",
+    "reading-time"
+  ],
+  "license": "MPL-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-reading-time.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "format:input": "npx prettier '*.js' 'src/**/*.{json,js}' --write",
+    "format:output": "npx prettier 'www/**/*.html' --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

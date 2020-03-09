@@ -1,0 +1,9 @@
+---
+layout: layouts/base.liquid
+---
+
+<main>{{ content | safe }}</main>
+<hr/>
+<footer>
+  <p>{{ content | striptags | reading_time }}</p>
+</footer>
